@@ -1,7 +1,7 @@
 <h1 align="center">Photoshop Rich Presence</h1>
 <p align="center">🎨 Discord RichPresence for Adobe Photoshop</p>
 <div align="center">
-  <img src="https://cdn.discordapp.com/attachments/473257424975822850/482224812668878848/photoshop.png" width="80" />
+  <img src="https://cdn.discordapp.com/attachments/473257424975822850/482224812668878848/photoshop.png" width="100" />
 </div>
 
 ## What you need to setup the RPC
