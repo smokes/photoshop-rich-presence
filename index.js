@@ -3,6 +3,7 @@ const winprocess = require("winprocess");
 var old_time = new Date();
 function update () {
     let windowTitle = winprocess.getActiveWindowName();
+    var pid = winprocess.getProcessId("photoshop.exe");
     if(windowTitle === "Adobe Photoshop CC 2018") {
         windowTitle = "IDLE";
     }
@@ -10,15 +11,12 @@ function update () {
         windowTitle_new = windowTitle.split("@");
         windowTitle = windowTitle_new[0];
     }
-    var pid = winprocess.getProcessId("photoshop.exe");
-    if(pid == -1) {
+    else if(pid == -1) {
         process.exit();
     }
     else {
         return windowTitle;
     }
-    var pid = winprocess.getProcessId("photoshop.exe");
-
     var new_time = old_time;
     client.updatePresence({
         details: 'CC 2018',
