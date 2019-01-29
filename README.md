@@ -13,7 +13,7 @@
 ## How to use
 `$ git clone git@github.com:imsmokie/photoshop-rich-presence.git`
 `$ cd photoshop-rich-presence`
-``$ node index.js
+`$ node index.js`
 
 And then Run Photoshop
 > Note that there is no need to install dependencides because i decided to include them in the repo due to node-gyp erroring out 
